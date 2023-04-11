@@ -1,13 +1,10 @@
+import Header from '../../components/common/Header/Header';
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+      <Header logo="Chillery" />
     </div>
   );
 }
